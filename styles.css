@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+
+/* - theme ----------------------------------------------------------------- */
+
+body {
+    font-family: "PT Sans";
+    background: white;
+}
+
+a {
+    color: #DA251D;
+    text-decoration: none;
+}
+
+.branded {
+    background-image: url("images/flowdsp.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 160px;
+}
+
+.speaker {
+    position: absolute;
+    bottom: 3em;
+    right: 3em;
+    text-align: right;
+    font-size: 150%;
+}
+
+.dedication {
+    position: absolute;
+    bottom: 3em;
+    left: 160px;
+    font-size: 80%;
+    font-style: italic;
+}
+
+.footnote {
+    position: absolute;
+    bottom: 3em;
+    right: 3em;
+    font-size: 80%;
+    font-style: italic;
+}
+
+
+
+/* - image sizes ----------------------------------------------------------- */
+
+.small img {
+    max-width: 50%;
+}
+
+.normal img {
+    max-width: 75%;
+}
+
+.big img {
+    max-width: 85%;
+}
+
+
+/* - code ------------------------------------------------------------------ */
+
+.small code {
+    font-size: 10px;
+}
+
+
+/* - scrollable container -------------------------------------------------- */
+
+.scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 600px;
+    scroll-direction: horizontal;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scroll img {
+    height: 580px;
+    display: inline-block;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+
+/* - floats ---------------------------------------------------------------- */
+
+.float-left {
+    width: 45%;
+    float: left;
+    border: 0px solid green;
+    padding: 0;
+    margin: 0;
+
+}
+.float-left h2:last-of-type, .float-left h3:last-child {
+    color: #000;
+}
+.float-right {
+    width: 45%;
+    float: right;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+/*
+.inverse {
+    background: #28166F;
+    color: #f0f0f0;
+    text-shadow: 0 0 20px #333;
+}
+
+.black {
+    background: black;
+}
+
+*/
